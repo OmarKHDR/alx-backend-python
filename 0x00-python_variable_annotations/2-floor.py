@@ -4,7 +4,7 @@
 import math
 
 
-def floor(n: float) -> int :
+def floor(n: float) -> int:
     '''hr pr lr
     '''
     return math.floor(n)
