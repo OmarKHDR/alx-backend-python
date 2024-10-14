@@ -6,10 +6,7 @@ from typing import List, Union
 from typing import List, Union
 
 
-def sum_mixed_list(mxd_lst: list[Union[int, float]]) -> float:
+def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
     ''' [pls] [send]
     '''
-    sum: float = 0
-    for ele in mxd_lst:
-        sum += ele
-    return sum
+    return sum(mxd_lst)
