@@ -9,4 +9,7 @@ from typing import List, Union
 def sum_mixed_list(mxd_lst: list[Union[int, float]]) -> float:
     ''' [pls] [send]
     '''
-    return sum(mxd_lst)
+    sum: float = 0
+    for ele in mxd_lst:
+        sum += ele
+    return sum
