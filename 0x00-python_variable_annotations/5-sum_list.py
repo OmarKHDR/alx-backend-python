@@ -5,6 +5,10 @@ from typing import List
 
 
 def sum_list(input_list: List[float]) -> float:
-    '''hello world
+    '''
+    Args:
+        input_list: A list of floats
+    Return:
+        float
     '''
     return sum(input_list)
