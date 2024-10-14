@@ -3,7 +3,7 @@
 '''
 
 
-def sum_list(input_list: list) -> float:
+def sum_list(input_list: list[float]) -> float:
     '''hello world
     '''
     return sum(input_list)
