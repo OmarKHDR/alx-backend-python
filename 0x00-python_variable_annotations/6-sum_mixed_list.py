@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 from typing import List, Union
-''' for checker sake lol lol
-'''
+'''A file to function something that can be functioned'''
 from typing import List, Union
 
 
