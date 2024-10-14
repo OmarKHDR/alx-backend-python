@@ -3,7 +3,7 @@
 import typing
 
 
-def make_multiplier(multiplier: float) -> typing.Callable:
+def make_multiplier(multiplier: float) -> typing.Callable[[float], float]:
     '''
     Args:
         multiplier: of floats
