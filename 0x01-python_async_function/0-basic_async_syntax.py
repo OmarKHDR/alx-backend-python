@@ -4,9 +4,10 @@
 import time
 import random
 import asyncio
+import typing
 
 
-async def wait_random(max_delay=10):
+async def wait_random(max_delay=10) -> float:
     '''why are you asking
     '''
     r = random.uniform(0, max_delay)
