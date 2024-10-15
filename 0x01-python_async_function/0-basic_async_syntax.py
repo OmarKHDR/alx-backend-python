@@ -7,7 +7,7 @@ import asyncio
 import typing
 
 
-async def wait_random(max_delay: int=10) -> float:
+async def wait_random(max_delay: int = 10) -> float:
     '''why are you asking
     '''
     r = random.uniform(0, max_delay)
